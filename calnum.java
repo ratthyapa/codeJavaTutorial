@@ -2,7 +2,7 @@ import java.util.Scanner; //step1 เรียกใช้คลาส Scanner
 public class calnum {
     public static void main(String[] args) {
         int x, y;
-        Scanner in = new Scanner(System.in); //step2 สร้างออบเจ็กส์ in สำหรับรบข้อมูล
+        Scanner in = new Scanner(System.in); //step2 สร้างออบเจ็กส์ in สำหรับรับข้อมูล
         System.out.print("Input Number1 : ");
         x=in.nextInt(); //step3 รับตัวเลขเป็นจำนวนเต็มเก็บในตัวแปร x
         System.out.print("your number1 is" +x);
